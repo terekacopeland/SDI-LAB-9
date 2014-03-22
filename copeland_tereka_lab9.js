@@ -25,10 +25,27 @@ var numberString = function() {
 	console.log("My age is " + myString + ".");
 	                           
 	//var myFloat = parseInt(myString);   
+	
+	if (myString === true) {
+		
+    console.log("String is a number!");
+    
+} else {
+			
+    //console.log("String is a decimal! Press enter to convert the age.");
+    
 	var myInt = parseInt(myString);   
                                    
 console.log("My age is " + parseInt(myString));
+};
 
 };
 
-numberString();
+//numberString();
+
+//problem 3
+var myFunction = function() {
+        
+        var stringDate1 = new Date("9/01/1988")
+        var stringDate2 = new Date("10/01/1988")
+
