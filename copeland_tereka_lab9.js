@@ -12,9 +12,10 @@ var formatNumber = function() {
 	console.log("PI is equal to " + Math.PI);
 	
 	
-	console.log(forPI.toFixed(5));
+	console.log("If you fix PI to the 5th decimal the result is " + forPI.toFixed(5));
 	console.log("If you fix PI to the 6th decimal the result is " + forPI.toFixed(6));
 	
 };
 
 formatNumber();
+
