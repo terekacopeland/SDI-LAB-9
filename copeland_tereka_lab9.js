@@ -21,9 +21,10 @@ var formatNumber = function() {
 
 //problem 2
 var numberString = function() {
-	var myString = "25.2354764"
+	var myString = "25.2354764";
+	console.log("My age is " + myString + ".");
 	                           
-	var myFloat = parseInt(myString);   
+	//var myFloat = parseInt(myString);   
 	var myInt = parseInt(myString);   
                                    
 console.log("My age is " + parseInt(myString));
