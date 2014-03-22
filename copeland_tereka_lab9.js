@@ -47,5 +47,13 @@ console.log("My age is " + parseInt(myString));
 var myFunction = function() {
         
         var stringDate1 = new Date("9/01/1988")
-        var stringDate2 = new Date("10/01/1988")
+        var stringDate2 = new Date("10/02/1988")
+        
+		var timeDiff = Math.ceil(stringDate2.getTime() - stringDate1.getTime());
+		var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24)); 
 
+console.log("The day difference between the two dates is " + diffDays);
+//console.log("The difference between the two dates in hours is " + timeDiff);
+};
+
+myFunction();
