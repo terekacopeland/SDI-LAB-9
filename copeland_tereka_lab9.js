@@ -17,5 +17,17 @@ var formatNumber = function() {
 	
 };
 
-formatNumber();
+//formatNumber();
 
+//problem 2
+var numberString = function() {
+	var myString = "25.2354764"
+	                           
+	var myFloat = parseInt(myString);   
+	var myInt = parseInt(myString);   
+                                   
+console.log("My age is " + parseInt(myString));
+
+};
+
+numberString();
