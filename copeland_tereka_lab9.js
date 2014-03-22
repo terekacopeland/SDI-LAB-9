@@ -8,6 +8,7 @@
 var formatNumber = function() {
 
 	var forPI = (Math.PI);
+	console.log("PROBLEM 1");
 	console.log(Math.PI);
 	console.log("PI is equal to " + Math.PI);
 
@@ -16,11 +17,12 @@ var formatNumber = function() {
 
 };
 
-//formatNumber();
+formatNumber();
 
 //problem 2
 var numberString = function() {
 	var myString = "25.2354764";
+	console.log("PROBLEM 2");
 	console.log("My age is " + myString + ".");
 
 	//var myFloat = parseInt(myString);
@@ -28,7 +30,7 @@ var numberString = function() {
 	if (isNaN(myString)) {
 
 		//console.log("String is a number!");
-		
+
 		return "String is not a number";
 
 	} else {
@@ -36,9 +38,9 @@ var numberString = function() {
 		//console.log("String is a decimal! Press enter to convert the age.");
 
 		var myInt = parseInt(myString);
-		
+
 		//console.log("My age is " + parseInt(myString));
-		
+
 		return myInt;
 	};
 
@@ -47,6 +49,7 @@ var numberString = function() {
 console.log("My age returned as a number is " + numberString() + ".");
 
 //problem 3
+
 var myFunction = function() {
 
 	var stringDate1 = new Date("9/01/1988")
@@ -54,9 +57,10 @@ var myFunction = function() {
 
 	var timeDiff = Math.ceil(stringDate2.getTime() - stringDate1.getTime());
 	var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
-
-	console.log("The day difference between the two dates is " + diffDays);
-	//console.log("The difference between the two dates in hours is " + timeDiff);
+		console.log("PROBLEM 3");
+		console.log("The difference between the two dates is " + diffDays + " days.");
+		//console.log("The difference between the two dates in hours is " + timeDiff);
 };
 
-//myFunction();
+myFunction(); 
+
